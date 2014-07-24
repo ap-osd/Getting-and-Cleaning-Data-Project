@@ -82,7 +82,7 @@ run_analysis = function()
     #===================================#
     print('Write as a CSV file')
     #===================================#
-    write.csv(finalData, "ap-osd-final-data.csv")
+    write.csv(finalData, "ap-osd-final-data.csv", row.names=FALSE)
 }
 
 
